@@ -1,0 +1,25 @@
+{% extends "posts/layout.html" %}
+{% load staticfiles %}
+{% block body %}
+<div class="container">
+<div class="row">
+<div class="col-md-12">	
+<h2>{{post.title}}</h2>
+</div>
+<div class="col-md-12">
+<p>{{post.shortdesc}}</p>
+</div>
+<div class="col-md-4">
+	<img src="{{ post.image.url }}" alt="no image" style="min-width: 100%;max-width: 100%">
+</div>
+<div class="col-md-8">
+<p>{{post.longdesc}}</p>
+</div>
+<div class="col-md-12" style="margin-bottom:10px;">
+	<center>
+<a href="{% url 'artblog:index' %}"><button class="btn btn-primary">Back TO All Posts</button></a>
+</center>
+</div>
+</div>
+</div>
+{% endblock %}
