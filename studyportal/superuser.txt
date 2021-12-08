@@ -1,0 +1,11 @@
+studentadmin
+studyportal
+
+workon studyportal
+
+normal
+storm
+jay@1234
+
+test
+abcd@1234
