@@ -31,10 +31,10 @@ Youtube Page
 Todo Page
 <img src="https://user-images.githubusercontent.com/23278773/148185440-e7bd6bab-6f18-4197-9f7e-a4d38f0e96c8.png">
 
-Setup and explore for more feature view
+Setup to explore more
 
 Demo Link Coming Soon
 
-Kindly Create and Issue for added features or suggestions
+Kindly Create an issue for suggestions and additions of features
 
 Thanks
